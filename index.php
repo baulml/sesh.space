@@ -5,7 +5,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-171042534-1');
+  gtag('config', '');
 </script>
 <link rel="icon" type="image/png" href="skull.png">
 <meta charset="utf-8">
