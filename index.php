@@ -5,8 +5,9 @@
 <meta name="description" content="sesh">
 <title>s e s h</title>
 <style>
-* { box-sizing: border-box; }
 .workaround { position: absolute; z-index: -9999; }
+body { background:none }
+* { box-sizing: border-box; }
 .video-background {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
