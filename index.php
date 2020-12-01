@@ -1,12 +1,5 @@
 <html>
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '');
-</script>
 <link rel="icon" type="image/png" href="skull.png">
 <meta charset="utf-8">
 <meta name="description" content="sesh">
