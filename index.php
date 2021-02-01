@@ -1,19 +1,27 @@
-<html>
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171042534-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171042534-1');
+</script>
 <link rel="icon" type="image/png" href="skull.png">
 <meta charset="utf-8">
 <meta name="description" content="sesh">
 <title>s e s h</title>
 <style>
 .workaround { position: absolute; z-index: -9999; }
-body { background:none }
+body { background: none }
 * { box-sizing: border-box; }
 .video-background {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
-.video-foreground,.video-background iframe {
+.video-foreground,
+.video-background iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,12 +46,13 @@ body { background:none }
 </head>
 <body>
 <div class="video-background">
-  <div class="video-foreground">
-    <div class="workaround">
-      <iframe src="silence.mp3" allow="autoplay"></iframe>
-    </div>
-    <iframe src="https://www.youtube.com/embed/videoseries?list=PLJfrM1gRLCluOB7jWOpj4VpyGGaQJ2kKB&autoplay=1&index=<?php print(rand(0,65)) ?>" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
-  </div>
+<div class="video-foreground">
+<div class="workaround">
+<iframe src="silence.mp3" allow="autoplay"></iframe>
+</div>
+<iframe src="https://www.youtube.com/embed?listType=playlist&list=PLJfrM1gRLCluOB7jWOpj4VpyGGaQJ2kKB&autoplay=1&index=<?php print(rand(0,65)) ?>" frameborder="0" allowfullscreen allow="autoplay; encrypted-media">
+</iframe>
+</div>
 </div>
 
-<!-- https://github.com/baulml/sesh.space-->
+<!-- https://github.com/baulml/sesh.space -->
